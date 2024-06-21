@@ -1,0 +1,49 @@
+.top-menu .nav-item a:hover{
+    background-color: #e91f6b;
+    color: white;
+}
+.has-chirl:hover .chirl-menu{
+    display:block;
+}
+.chirl-menu ul li a:hover{
+    color: darkgoldenrod!important;
+    background: none!important;
+}
+.chirl-menu ul li:hover span{
+    transform:rotate(45deg);
+    transition: all .25s ease;
+}
+
+.top-menu .nav-item .active{
+    background-color: #e91f6b;
+
+}
+.title-content a h1:hover{
+    color:#e91f6b;
+}
+.information ul li a:hover{
+    color: #e91f6b;
+}
+.slide-bottom button:hover{
+    background-color: #e91f6b;
+    color: white;
+}
+.button-readmore button:hover{
+    background-color: #b90649;
+}
+.owl-carousel .owl-item .slide-bottom:hover img{
+  transform: scale(1.1);
+}
+.btn-module .fa:hover{
+    color: #e91f6b;
+}
+.product-hover:hover .btn-module{
+    display: block;
+}
+.product-hover img:hover{
+   opacity: 0.5;
+}
+/*.hover-menu ul .has-chirl:hover span{*/
+/*    transform:rotate(45deg);*/
+/*    transition: all .25s ease;*/
+/*}*/
