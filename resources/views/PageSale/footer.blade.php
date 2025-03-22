@@ -11,12 +11,12 @@
                     </div>
                 </div>
                 <div class="col-md3 mxh">
-                    <a href="https://www.facebook.com/"><img src="{{asset('pageSale/img/facebook_icon.jpg')}}"
+                    <a href="https://www.facebook.com/"><img src="{{secure_asset('pageSale/img/facebook_icon.jpg')}}"
                                                              alt="Image"></a>
-                    <a href="http://tweeter.com/"><img src="{{asset('pageSale/img/tweeter_icon.jpg')}}" alt="Image"></a>
-                    <a href="https://www.google.com/"><img src="{{asset('pageSale/img/google_icon.jpg')}}" alt="Image"></a>
-                    <a href=""><img src="{{asset('pageSale/img/in_icon.jpg')}}" alt="Image"></a>
-                    <a href="https://www.youtube.com/?gl=VN"><img src="{{asset('pageSale/img/youtube_icon.jpg')}}"
+                    <a href="http://tweeter.com/"><img src="{{secure_asset('pageSale/img/tweeter_icon.jpg')}}" alt="Image"></a>
+                    <a href="https://www.google.com/"><img src="{{secure_asset('pageSale/img/google_icon.jpg')}}" alt="Image"></a>
+                    <a href=""><img src="{{secure_asset('pageSale/img/in_icon.jpg')}}" alt="Image"></a>
+                    <a href="https://www.youtube.com/?gl=VN"><img src="{{secure_asset('pageSale/img/youtube_icon.jpg')}}"
                                                                   alt="Image"></a>
                 </div>
                 <div class="col-md-3 information" style="padding-left: 90px;">
@@ -47,27 +47,27 @@
                     <ul>
                         <li>
                             <span style="font-weight: 600;">TPHCM</span>
-                            <img src="{{asset('pageSale/img/viber-24.png')}}" alt="Image"
+                            <img src="{{secure_asset('pageSale/img/viber-24.png')}}" alt="Image"
                                  style="width:18px; height:18px;margin-left: 50px;">
-                            <img src="{{asset('pageSale/img/zalo-icon.jpg')}}" alt="Image"
+                            <img src="{{secure_asset('pageSale/img/zalo-icon.jpg')}}" alt="Image"
                                  style="width:18px; height:18px;">
                             <p style="font-size: 14px;padding-top: 7px; text-transform: none;font-weight: 100;">
                                 Mr.ViệtAnh<b style="color: red;"> 0988459063</b></p>
                         </li>
                         <li>
                             <span style="font-weight: 600;">Hà Nội</span>
-                            <img src="{{asset('pageSale/img/viber-24.png')}}" alt="Image"
+                            <img src="{{secure_asset('pageSale/img/viber-24.png')}}" alt="Image"
                                  style="width:18px; height:18px;margin-left: 50px;">
-                            <img src="{{asset('pageSale/img/zalo-icon.jpg')}}" alt="Image"
+                            <img src="{{secure_asset('pageSale/img/zalo-icon.jpg')}}" alt="Image"
                                  style="width:18px; height:18px;">
                             <p style="font-size: 14px;padding-top: 7px; text-transform: none;font-weight: 100;">
                                 Mr.Tích<b style="color: red;"> 0903 935 666</b></p>
                         </li>
                         <li>
                             <span style="font-weight: 600;">Đà Nẵng</span>
-                            <img src="{{asset('pageSale/img/viber-24.png')}}" alt="Image"
+                            <img src="{{secure_asset('pageSale/img/viber-24.png')}}" alt="Image"
                                  style="width:18px; height:18px;margin-left: 50px;">
-                            <img src="{{asset('pageSale/img/zalo-icon.jpg')}}" alt="Image"
+                            <img src="{{secure_asset('pageSale/img/zalo-icon.jpg')}}" alt="Image"
                                  style="width:18px; height:18px;">
                             <p style="font-size: 14px;padding-top: 7px; text-transform: none;font-weight: 100;">
                                 Mr.Phúc<b style="color: red;"> 0903 935 666</b></p>
@@ -79,8 +79,8 @@
     </div>
 </section>
 <!-- carousel slide -->
-<script src="{{asset('pageSale/slider/docs/assets/vendors/jquery.min.js')}}"></script>
-<script src="{{asset('pageSale/slider/dist/owl.carousel.min.js')}}"></script>
+<script src="{{secure_asset('pageSale/slider/docs/assets/vendors/jquery.min.js')}}"></script>
+<script src="{{secure_asset('pageSale/slider/dist/owl.carousel.min.js')}}"></script>
 <!-- Popper -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
@@ -92,8 +92,8 @@
         crossorigin="anonymous"></script>
 <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
 <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css" />
-<script src="{{asset('backend/js/pageSale/postPageSale.js')}}"></script>
-<script src="{{asset('backend/js/zoomerang.js')}}"></script>
+<script src="{{secure_asset('backend/js/pageSale/postPageSale.js')}}"></script>
+<script src="{{secure_asset('backend/js/zoomerang.js')}}"></script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 {{--add link--}}
@@ -181,7 +181,7 @@
 </script>
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v7.0&appId=2428682397240341&autoLogAppEvents=1"></script>
-<script src="{{asset('backend/js/addToCart.js')}}"></script>
+<script src="{{secure_asset('backend/js/addToCart.js')}}"></script>
 <script>
     $(".update-cart").click(function (e) {
         e.preventDefault();

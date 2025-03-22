@@ -100,7 +100,7 @@
                                                 <label>Hình ảnh sản phẩm</label>
                                                 <div class="clearfix"></div>
                                                 <input type="hidden" id="img" name="display_img" value="{{!empty($data) ? $data->product_image:null}}">
-                                                <img id="image" src="{{asset('image/'.$data->product_image)}}" alt="your image"
+                                                <img id="image" src="{{secure_asset('image/'.$data->product_image)}}" alt="your image"
                                                      width="100px" class="mb-2"/>
                                                 <input type="file" class="file-update" name="avatar" id="avatar">
                                                 <input type="hidden" id="img" name="img">
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </div>
-        {{--        <script src="{{asset('backend/js/validate.js')}}"></script>--}}
-        <script src="{{asset('backend/js/product/postProduct.js')}}"></script>
+        {{--        <script src="{{secure_asset('backend/js/validate.js')}}"></script>--}}
+        <script src="{{secure_asset('backend/js/product/postProduct.js')}}"></script>
 @endsection
 

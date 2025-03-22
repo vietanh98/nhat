@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="{{asset('PageSale/css/payStyle.css')}}">
+<link rel="stylesheet" href="{{secure_asset('PageSale/css/payStyle.css')}}">
 <div id="aml_pb_wrap" class="aml-box-highlight aml-highlight-item aml_pb-bottom-left "
      onclick="autoAdsMaxLeadTrackingBoxHighlight()"
      style="height: auto; width: auto; z-index: 2147483646; bottom: 16px;">
@@ -241,7 +241,7 @@
                                                 <tr class="cart-product w-100">
                                                     <td class="thumb">
                                                         <img class="img"
-                                                             src="{{asset('image/'.$details['product_image'])}}"
+                                                             src="{{secure_asset('image/'.$details['product_image'])}}"
                                                              alt="">
                                                     </td>
                                                     <td class="thumb"><span class="count-cart"

@@ -82,7 +82,7 @@
                                         {{$product->category_id}}
                                     </td>
                                     <td>
-                                        <img src="{{asset('image/'.$product->product_image	)}}" height="50px"
+                                        <img src="{{secure_asset('image/'.$product->product_image	)}}" height="50px"
                                              width="50px">
                                     </td>
                                     <td>

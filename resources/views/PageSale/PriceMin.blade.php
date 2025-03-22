@@ -64,7 +64,7 @@
                                     <input type="hidden" name="product-id" id='get-id'
                                            value="{{!empty($data) ? $data->product_id:null}}"/>
                                     <a href="{{route('JapanCosmetic.detailProduct',$data->product_id)}}">
-                                        <img src="{{asset('image/'.$data->product_image)}}" alt="Image"
+                                        <img src="{{secure_asset('image/'.$data->product_image)}}" alt="Image"
                                              style="width: 70%;height: 190.27px;transition: all 0.2s;margin-left: 40px;margin-right: 40px;">
                                     </a>
                                 </form>
@@ -137,7 +137,7 @@
                         <div class="item slide-bottom">
                             <a href="">
                                 <div style="overflow: hidden;">
-                                    <img src="{{asset('pageSale/img/san1.jpg')}}" alt="Image">
+                                    <img src="{{secure_asset('pageSale/img/san1.jpg')}}" alt="Image">
                                 </div>
                                 <span>Sân vườn tiểu cảnh đẹp cho ngôi nhà</span>
                                 <button class="btn-slide-bottom">Xem chi tiết</button>
@@ -146,7 +146,7 @@
                         <div class="item slide-bottom">
                             <a href="">
                                 <div style="overflow: hidden;">
-                                    <img src="{{asset('pageSale/img/noithat.jpg')}}" alt="Image">
+                                    <img src="{{secure_asset('pageSale/img/noithat.jpg')}}" alt="Image">
                                 </div>
                                 <span>Nội thất phòng làm việc</span>
                                 <button class="btn-slide-bottom">Xem chi tiết</button>
@@ -156,7 +156,7 @@
                         <div class="item slide-bottom">
                             <a href="">
                                 <div style="overflow: hidden;">
-                                    <img src="{{asset('pageSale/img/san1.jpg')}}" alt="Image">
+                                    <img src="{{secure_asset('pageSale/img/san1.jpg')}}" alt="Image">
                                 </div>
                                 <span>Các mẫu chung cư đẹp 2018</span>
                                 <button class="btn-slide-bottom">Xem chi tiết</button>

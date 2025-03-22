@@ -79,6 +79,6 @@
         </div>
         {!! $blog->links() !!}
     </div>
-    <script src="{{asset('backend/js/blog/postBlog.js')}}"></script>
+    <script src="{{secure_asset('backend/js/blog/postBlog.js')}}"></script>
 
 @endsection

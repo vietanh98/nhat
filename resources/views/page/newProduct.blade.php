@@ -96,7 +96,7 @@
                         <div class="wgp_pro">
                             <a href="https://rbvietnam.com/product/bo-san-pham-tre-hoa-lan-da-daily-beauty-age-away-vitalizing">
                                 <img width="300" height="300"
-                                     src="{{asset('image/'.$item->product_image)}}"
+                                     src="{{secure_asset('image/'.$item->product_image)}}"
                                      class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail wp-post-image" alt="" style="width: 90px; height: 90px"> <span class="product-title">{{$item->product_name}}</span>
                             </a>
                             <span class="wrap_price"><span class="woocommerce-Price-amount amount">{{$item->product_price}}<span

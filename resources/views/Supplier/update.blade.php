@@ -55,7 +55,7 @@
                                                 <label>Logo nhà sản xuất</label>
                                                 <div class="clearfix"></div>
                                                 <input type="hidden" id="img" name="display_img" value="{{!empty($supplier) ? $supplier->supplier_logo:null}}">
-                                                <img id="image" src="{{asset('image/'.$supplier->supplier_logo)}}" alt="your image"
+                                                <img id="image" src="{{secure_asset('image/'.$supplier->supplier_logo)}}" alt="your image"
                                                      width="100px" class="mb-2"/>
                                                 <input type="file" class="file-update" name="avatar" id="avatar">
                                                 <input type="hidden" id="img" name="img">
@@ -73,7 +73,7 @@
                 </div>
             </div>
         </div>
-        {{--        <script src="{{asset('backend/js/validate.js')}}"></script>--}}
-        <script src="{{asset('backend/js/supplier/postSupplier.js')}}"></script>
+        {{--        <script src="{{secure_asset('backend/js/validate.js')}}"></script>--}}
+        <script src="{{secure_asset('backend/js/supplier/postSupplier.js')}}"></script>
 @endsection
 
