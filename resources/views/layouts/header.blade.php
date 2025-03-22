@@ -56,7 +56,7 @@
                             Account
                         </p>
                     </a>
-                    <img src="{{secure_asset('image/'.Auth::user()->avatar	)}}" style="width: 50px; height: 50px;">
+                    <img src="{{asset('image/'.Auth::user()->avatar	)}}" style="width: 50px; height: 50px;">
                 </li>
             </ul>
         </div>

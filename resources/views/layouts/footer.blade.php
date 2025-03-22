@@ -41,5 +41,5 @@
          uiLibrary: 'bootstrap4'
      });
  </script>
- <script src="{{secure_asset('backend/assets/demo/demo.js')}}"></script>
+ <script src="{{asset('backend/assets/demo/demo.js')}}"></script>
 

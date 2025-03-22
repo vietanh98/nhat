@@ -58,7 +58,7 @@
                                         {{$item->product_name}}
                                     </td>
                                     <td>
-                                        <img src="{{secure_asset('image/'.$item->product_image	)}}" height="50px"
+                                        <img src="{{asset('image/'.$item->product_image	)}}" height="50px"
                                              width="50px">
                                     </td>
                                     <td>
@@ -168,7 +168,7 @@
                                             {{$item->category_id}}
                                         </td>
                                         <td>
-                                            <img src="{{secure_asset('image/'.$item->product_image	)}}" height="50px"
+                                            <img src="{{asset('image/'.$item->product_image	)}}" height="50px"
                                                  width="50px">
                                         </td>
                                         <td>
@@ -221,7 +221,7 @@
         </div>
     </div>
 
-    <script src="{{secure_asset('backend/js/product/postProduct.js')}}"></script>
+    <script src="{{asset('backend/js/product/postProduct.js')}}"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
     <script>

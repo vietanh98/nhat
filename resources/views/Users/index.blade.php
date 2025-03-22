@@ -74,7 +74,7 @@
                                         {{$itemDataUser->date_of_birth}}
                                     </td>
                                     <td>
-                                        <img src="{{secure_asset('image/'.$itemDataUser->avatar)}}" height="50px" width="50px">
+                                        <img src="{{asset('image/'.$itemDataUser->avatar)}}" height="50px" width="50px">
                                     </td>
 {{--                                    <th>--}}
                                         @if($itemDataUser->role_id == 1 )
@@ -123,5 +123,5 @@
         </div>
         {!! $user->links() !!}
     </div>
-    <script src="{{secure_asset('backend/js/postUser.js')}}"></script>
+    <script src="{{asset('backend/js/postUser.js')}}"></script>
 @endsection

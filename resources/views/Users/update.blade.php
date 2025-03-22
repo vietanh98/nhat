@@ -82,7 +82,7 @@
                                         <div class="form-group">
                                             <div class="clearfix"></div>
                                             <input type="hidden" id="img" name="display_img" value="{{!empty($data) ? $data->avatar:null}}">
-                                            <img id="image" src="{{secure_asset('image/'.$data->avatar)}}" alt="your image"
+                                            <img id="image" src="{{asset('image/'.$data->avatar)}}" alt="your image"
                                                  width="150px" class="mb-2"/>
                                             <div class="clearfix"></div>
                                             <img id="image" src=" " alt="your image" width="150px" class="mb-2"
@@ -131,7 +131,7 @@
                 </div>
             </div>
         </div>
-        <script src="{{secure_asset('backend/js/updateUser.js')}}"></script>
-        <script src="{{secure_asset('backend/js/postUser.js')}}"></script>
+        <script src="{{asset('backend/js/updateUser.js')}}"></script>
+        <script src="{{asset('backend/js/postUser.js')}}"></script>
 @endsection
 

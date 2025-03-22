@@ -130,5 +130,5 @@
         </div>
         {!! $link->links() !!}
     </div>
-    <script src="{{secure_asset('backend/js/supplier/postSupplier.js')}}"></script>
+    <script src="{{asset('backend/js/supplier/postSupplier.js')}}"></script>
 @endsection

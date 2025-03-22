@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8" />
     <meta name="keywords" content="Cloud Login Form Responsive Widget,Login form widgets, Sign up Web forms , Login signup Responsive web form,Flat Pricing table,Flat Drop downs,Registration Forms,News letter Forms,Elements" />
-    <link rel="stylesheet" href="{{secure_asset('backend/css/style.css')}}" type="text/css" media="all" />
+    <link rel="stylesheet" href="{{asset('backend/css/style.css')}}" type="text/css" media="all" />
     <!-- Style-CSS -->
-    <link rel="stylesheet" href="{{secure_asset('backend/css/fontawesome-all.css')}}">
+    <link rel="stylesheet" href="{{asset('backend/css/fontawesome-all.css')}}">
 
 </head>
 
@@ -54,6 +54,6 @@
     </div>
     <!-- //content -->
 </body>
-<script src="{{secure_asset('backend/js/validate.js')}}"></script>
+<script src="{{asset('backend/js/validate.js')}}"></script>
 
 </html>

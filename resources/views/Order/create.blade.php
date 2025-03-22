@@ -70,7 +70,7 @@
                 </div>
             </div>
         </div>
-{{--        <script src="{{secure_asset('backend/js/validate.js')}}"></script>--}}
-        <script src="{{secure_asset('backend/js/supplier/postSupplier.js')}}"></script>
+{{--        <script src="{{asset('backend/js/validate.js')}}"></script>--}}
+        <script src="{{asset('backend/js/supplier/postSupplier.js')}}"></script>
 @endsection
 

@@ -120,7 +120,7 @@
                 </div>
             </div>
         </div>
-        <script src="{{secure_asset('backend/js/validate.js')}}"></script>
-        <script src="{{secure_asset('backend/js/postUser.js')}}"></script>
+        <script src="{{asset('backend/js/validate.js')}}"></script>
+        <script src="{{asset('backend/js/postUser.js')}}"></script>
 @endsection
 
