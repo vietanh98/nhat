@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <script src="{{asset('backend/js/blog/postBlog.js')}}"></script>
+        <script src="{{secure_asset('backend/js/blog/postBlog.js')}}"></script>
         <script src="https://cdn.ckeditor.com/ckeditor5/19.1.1/classic/ckeditor.js"></script>
         <script>
             ClassicEditor

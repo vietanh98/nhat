@@ -39,6 +39,6 @@
                 </div>
             </div>
         </div>
-        <script src="{{asset('backend/js/category/postCategory.js')}}"></script>
+        <script src="{{secure_asset('backend/js/category/postCategory.js')}}"></script>
 @endsection
 

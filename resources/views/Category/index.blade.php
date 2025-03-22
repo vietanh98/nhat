@@ -76,6 +76,6 @@
         </div>
         {!! $data_category->links() !!}
     </div>
-    <script src="{{asset('backend/js/category/postCategory.js')}}"></script>
+    <script src="{{secure_asset('backend/js/category/postCategory.js')}}"></script>
 
 @endsection

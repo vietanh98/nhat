@@ -42,7 +42,7 @@
                                         <div class="gallery">
                                             <div class="full">
                                                 <img alt=""
-                                                     src="{{asset('image/'.$data->product_image)}}"
+                                                     src="{{secure_asset('image/'.$data->product_image)}}"
                                                      style="display: inline;" class="zoom">
                                             </div>
                                             <div class="clear"></div>

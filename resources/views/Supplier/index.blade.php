@@ -69,7 +69,7 @@
                                     </td>
 
                                     <td>
-                                        <img src="{{asset('image/'.$item->supplier_logo)}}" height="50px"
+                                        <img src="{{secure_asset('image/'.$item->supplier_logo)}}" height="50px"
                                              width="50px">
                                     </td>
                                     @if($item->is_active == 1)
@@ -112,6 +112,6 @@
         </div>
         {!! $supplier->links() !!}
     </div>
-    <script src="{{asset('backend/js/supplier/postSupplier.js')}}"></script>
+    <script src="{{secure_asset('backend/js/supplier/postSupplier.js')}}"></script>
 
 @endsection

@@ -46,9 +46,9 @@
 
                                     <div class="row my-3 d-flex justify-content-center">
                                         <!--Facebook-->
-                                        <a href="https://accounts.google.com/"><img src="{{asset('image/google-icon.png')}}" style="width: 30px; margin-right: 20px"></a>
+                                        <a href="https://accounts.google.com/"><img src="{{secure_asset('image/google-icon.png')}}" style="width: 30px; margin-right: 20px"></a>
                                         <!--Twitter-->
-                                        <a href="https://www.facebook.com/"><img src="{{asset('image/icon-facebook.png')}}" style="width: 30px"></a>
+                                        <a href="https://www.facebook.com/"><img src="{{secure_asset('image/icon-facebook.png')}}" style="width: 30px"></a>
                                         <!--Google +-->
                                         <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fab fa-google-plus-g"></i></button>
                                     </div>
@@ -199,7 +199,7 @@
             <div class="row">
                 <div class="col-md-3">
                     <div class="logo-header">
-                        <img src="{{asset('PageSale/img/logo.jpg')}}" alt="Image">
+                        <img src="{{secure_asset('PageSale/img/logo.jpg')}}" alt="Image">
                     </div>
                 </div>
                 <div class="search col-md-6">
@@ -215,7 +215,7 @@
                 </div>
                 <div class="col-md-3 top-cart">
                     <a href="{{route('JapanCosmetic.cart')}}" class="text-decoration-none">
-                        <img src="{{asset('pageSale/img/cart-icon.jpg')}}" alt="Image" style="float: left;">
+                        <img src="{{secure_asset('pageSale/img/cart-icon.jpg')}}" alt="Image" style="float: left;">
                         <span class="badge badge-pill badge-danger" style="position: absolute;top: 64px;left: 106px;">{{ count((array) session('cart')) }}</span>
                         <div class="text-cart">
                             <p>Giỏ hàng</p>
